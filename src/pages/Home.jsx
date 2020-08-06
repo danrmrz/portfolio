@@ -14,13 +14,13 @@ const Home = ({ children, where }) => {
       <div className='introduce'>
         <div className='myself'>
           <img src={ profile } alt=''/>
-          <h1>Hola, yo soy Dan Ramirez</h1>
+          <h1 className='page-title'>Hola, yo soy Dan Ramirez</h1>
         </div>
         <Rotated>
-          <h2 className='rotated__title'>
+          <h2 className='title'>
             Un frontend que sabe HTML, CSS, 
             JavaScript y {' '}
-            <Link  to='/' className='rotated__title--link'>
+            <Link  to='/mystack' className='title--link'>
               una que otra cosa más
             </Link>
           </h2>

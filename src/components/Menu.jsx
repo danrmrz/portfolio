@@ -32,7 +32,7 @@ const Menu = (props) => {
           <Link to='/' className='menu__links--titles' onClick={props.onClose}>
             Inicio
           </Link>
-          <Link to='/' className='menu__links--titles' onClick={props.onClose}>
+          <Link to='/aboutme' className='menu__links--titles' onClick={props.onClose}>
             Acerca de mi
           </Link>
         </div>
