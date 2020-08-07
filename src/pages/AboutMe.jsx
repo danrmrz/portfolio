@@ -13,6 +13,7 @@ const AboutMe = () => {
         Culhuacán del IPN, no terminé la carrera, 
         pero estudié ahí.
       </p>
+
       <p>
         Como desarrollador mi stack esta centrado
          en JavaScript, te dejo más detalles por 
@@ -21,6 +22,7 @@ const AboutMe = () => {
           aquí.
         </Link>
       </p>
+
       <p>
         Mi tiempo libre se lo dedico, sobre todo,
          a jugar videojuegos, escuchar la misma 
@@ -29,6 +31,7 @@ const AboutMe = () => {
         aprendiendo, así que no, no me golpeó muy
          duro la cuarentena de este año.
       </p>
+      
       <p>
         Si te quieres poner en contacto conmigo 
         {' '}

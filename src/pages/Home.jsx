@@ -8,7 +8,7 @@ import profile from '../../assets/static/profile.jpg'
 
 import '../../assets/styles/pages/Home.styl'
 
-const Home = ({ children, where }) => {
+const Home = ({ children }) => {
   return(
     <>
       <div className='introduce'>
@@ -16,6 +16,7 @@ const Home = ({ children, where }) => {
           <img src={ profile } alt=''/>
           <h1 className='page-title'>Hola, yo soy Dan Ramirez</h1>
         </div>
+
         <Rotated>
           <h2 className='title'>
             Un frontend que sabe HTML, CSS, 
@@ -25,7 +26,9 @@ const Home = ({ children, where }) => {
             </Link>
           </h2>
         </Rotated>
-        <Navbar where={ where } />
+
+        <Navbar />
+        
         { children }
       </div>
     </>

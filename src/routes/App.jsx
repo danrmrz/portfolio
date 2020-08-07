@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Layout from '../components/Layout'
 import Home from '../pages/Home'
+import Contact from '../pages/Contact'
 import AboutMe from '../pages/AboutMe'
 import MyStack from '../pages/MyStack'
 
@@ -12,20 +13,20 @@ function App() {
       <Layout>
         <Switch>
           <Route exact path='/'>
-            <Home where='projects'>
+            <Home>
               <span>🐱‍🐉</span>
             </Home>
           </Route>
 
           <Route exact path='/experience'>
-            <Home where='experience'>
+            <Home>
               <span>🐱‍💻</span>
             </Home>
           </Route>
 
           <Route exact path='/contact'>
-            <Home where='contact'>
-              <span>🐱‍👤</span>
+            <Home>
+              <Contact/>
             </Home>
           </Route>
 
