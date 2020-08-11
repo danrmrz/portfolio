@@ -8,8 +8,8 @@ const AboutMe = () => {
       <p>
         Hola, soy Daniel Ramirez Ramirez, soy un 
         desarrollador frontend mexicano que se ha 
-        formado principalmente en Internet, tambien
-        estudié ingeniería en computación en ESIME
+        formado principalmente en Internet, también 
+        estudié ingeniería en computación en ESIME 
         Culhuacán del IPN, no terminé la carrera, 
         pero estudié ahí.
       </p>
@@ -24,12 +24,12 @@ const AboutMe = () => {
       </p>
 
       <p>
-        Mi tiempo libre se lo dedico, sobre todo,
-         a jugar videojuegos, escuchar la misma 
-        música desde hace años, tocar mi guitarra
-         de vez en cuando y claro, seguir 
-        aprendiendo, así que no, no me golpeó muy
-         duro la cuarentena de este año.
+        Mi tiempo libre se lo dedico, sobre todo, 
+        a jugar videojuegos, escuchar la misma 
+        música desde hace años, tocar mi guitarra 
+        de vez en cuando y claro, seguir 
+        aprendiendo, así que no, no me golpeó muy 
+        fuerte el encierro de este año.
       </p>
       
       <p>

@@ -6,6 +6,7 @@ import close_icon from '../../assets/static/close-w.png'
 import gitHub_icon from '../../assets/static/github-w.png'
 import linkedIn_icon from '../../assets/static/linkedin-w.png'
 import twitter_icon from '../../assets/static/twitter-w.png'
+import hackerCat from '../../assets/static/hackerCat.png'
 
 import '../../assets/styles/components/Menu.styl'
 
@@ -23,9 +24,9 @@ const Menu = (props) => {
     <div className='menu-container' id='menu-container'>
       <div className='menu' id='menu'>
         <div className='menu__button-container'>
-          <button className='menu__button btn' onClick={props.onClose}>
+          <div className='menu__button btn' onClick={props.onClose}>
             <img src={close_icon} alt='' className='menu__button-image btn-img'/>
-          </button>
+          </div>
         </div>
 
         <div className='menu__links'>
@@ -55,7 +56,14 @@ const Menu = (props) => {
         </div>
 
         <div className='menu__made'>
-          <span>🐱‍💻 Daniel Ramirez 2020</span>
+          <span>
+            <img
+              src={hackerCat}
+              alt='Gato hacker'
+              className='menu__made--image'
+            />
+            Daniel Ramirez 2020
+          </span>
         </div>
       </div>
       

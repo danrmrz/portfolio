@@ -32,9 +32,16 @@ class Header extends React.Component {
   render(){
     return(
       <Rotated className='header'>
-        <button className='header__menu-button btn' onClick={this.handleOpenMenu}>
-          <img src={menu_icon} className='header__menu-image btn-img' alt='Botón de menú'/>
-        </button>
+        <div
+          className='header__menu-button btn'
+          onClick={this.handleOpenMenu}
+        >
+          <img
+            src={menu_icon}
+            className='header__menu-image btn-img'
+            alt='Botón de menú'
+          />
+        </div>
         <Menu
           isActive={this.state.menuIsOpen}
           onClose={this.handleCloseMenu}

@@ -1,0 +1,45 @@
+@import '../Variables'
+
+.projects-item
+  width: calc(100vw - 110px)
+  max-width: 450px
+  margin: 10px 0 15px
+  padding: 0
+  border-radius: 10px
+  box-shadow: 1px 2px 5px 0 $color-dark
+
+  &__image
+    height: 125px
+    width: 100%
+    border-radius: 10px 10px 0 0
+    object-fit: cover
+
+  &__info
+    display: flex
+    margin: 0 20px
+    padding: 0
+    flex-direction: column
+    align-items: center
+
+    &--title
+      width: 100%
+      margin: 10px 0
+      font-size: 16px
+      color: $color-secondary
+
+    &--description
+      width: auto
+      font-size: 12px
+      line-height: 16px
+      color: $color-dark
+
+  &__links
+    display: grid
+    // flex-wrap: wrap
+    justify-content: center
+    margin: 0
+    padding: 0
+      
+    img
+      height: 25px
+      margin-right: 5px

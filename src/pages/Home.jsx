@@ -26,11 +26,11 @@ const Home = ({ children }) => {
             </Link>
           </h2>
         </Rotated>
-
-        <Navbar />
-        
-        { children }
       </div>
+
+      <Navbar />
+      
+      { children }
     </>
   )
 }
