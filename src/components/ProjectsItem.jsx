@@ -1,9 +1,9 @@
 import React from 'react'
 
-import webIcon from '../../assets/static/globe-w.png'
-import gitHubIcon from '../../assets/static/github-w.png'
+import webIcon from '../assets/static/globe-w.png'
+import gitHubIcon from '../assets/static/github-w.png'
 
-import '../../assets/styles/components/ProjectsItem.styl'
+import '../assets/styles/components/ProjectsItem.styl'
 
 const ProjectsItem = (props) => {
   

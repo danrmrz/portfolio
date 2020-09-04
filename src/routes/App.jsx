@@ -11,6 +11,12 @@ import ProjectsContainer from '../pages/ProjectsContainer'
 import ProjectsItem from '../components/ProjectsItem'
 import NotFound from '../components/NotFound'
 
+const project1 = './src/assets/static/projects/project-1.jpeg'
+const project2 = './src/assets/static/projects/project-2.jpg'
+const project3 = './src/assets/static/projects/project-3.jpeg'
+const project4 = './src/assets/static/projects/project-4.jpg'
+const project5 = './src/assets/static/projects/project-5.jpg'
+
 function App() {
   return(
     <BrowserRouter>
@@ -29,7 +35,7 @@ function App() {
                     Molestiae quas enim exercitationem ex 
                     labore facere. Dolore.
                   '
-                  image='../../assets/static/projects/project-1.jpeg'
+                  image={project1}
                 />
                 <ProjectsItem
                   name='Proyecto 2'
@@ -41,7 +47,7 @@ function App() {
                     Molestiae quas enim exercitationem ex 
                     labore facere. Dolore.
                   '
-                  image='../../assets/static/projects/project-2.jpg'
+                  image={project2}
                 />
                 <ProjectsItem
                   name='Proyecto 3'
@@ -53,7 +59,7 @@ function App() {
                     Molestiae quas enim exercitationem ex 
                     labore facere. Dolore.
                   '
-                  image='../../assets/static/projects/project-3.jpeg'
+                  image={project3}
                 />
                 <ProjectsItem
                   name='Proyecto 4'
@@ -65,7 +71,7 @@ function App() {
                     Molestiae quas enim exercitationem ex 
                     labore facere. Dolore.
                   '
-                  image='../../assets/static/projects/project-4.jpg'
+                  image={project4}
                 />
                 <ProjectsItem
                   name='Proyecto 5'
@@ -77,7 +83,7 @@ function App() {
                     Molestiae quas enim exercitationem ex 
                     labore facere. Dolore.
                   '
-                  image='../../assets/static/projects/project-5.jpg'
+                  image={project5}
                 />
               </ProjectsContainer>
             </Home>

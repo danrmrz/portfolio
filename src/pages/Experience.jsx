@@ -1,8 +1,8 @@
 import React from 'react'
 
-import hackerCat from '../../assets/static/hackerCat.png'
+import hackerCat from '../assets/static/hackerCat.png'
 
-import '../../assets/styles/pages/Experience.styl'
+import '../assets/styles/pages/Experience.styl'
 
 const Experience = () => {
   return(

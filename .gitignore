@@ -4,7 +4,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,linux,images,macos,react,windows
 
 ### Images ###
-assets/static/
+src/assets/static/
 
 ### Designs ###
 design/

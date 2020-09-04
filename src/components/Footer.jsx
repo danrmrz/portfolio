@@ -2,7 +2,7 @@ import React from 'react'
 
 import Rotated from './Rotated'
 
-import '../../assets/styles/components/Footer.styl'
+import '../assets/styles/components/Footer.styl'
 
 const Footer = () => {
   return(

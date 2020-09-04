@@ -1,9 +1,9 @@
 import React from 'react'
 
-import email_icon from '../../assets/static/mail-w.png'
-import twitter_icon from '../../assets/static/twitter-w.png'
+import email_icon from '../assets/static/mail-w.png'
+import twitter_icon from '../assets/static/twitter-w.png'
 
-import '../../assets/styles/pages/Contact.styl'
+import '../assets/styles/pages/Contact.styl'
 
 const twitterLink = 'https://twitter.com/soydanrmrz'
 const email = 'danrmrz@outlook.com'

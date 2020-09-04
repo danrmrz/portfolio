@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../../assets/styles/pages/ProjectsContainer.styl'
+import '../assets/styles/pages/ProjectsContainer.styl'
 
 const ProjectsContainer = ({ children }) => {
   return(

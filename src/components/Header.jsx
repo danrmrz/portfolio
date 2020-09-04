@@ -2,9 +2,9 @@ import React from 'react'
 
 import Rotated from './Rotated'
 import Menu from './Menu'
-import menu_icon from '../../assets/static/menu.png'
+import menu_icon from '../assets/static/menu.png'
 
-import '../../assets/styles/components/Header.styl'
+import '../assets/styles/components/Header.styl'
 
 class Header extends React.Component {
   state = {

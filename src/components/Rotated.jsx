@@ -1,6 +1,6 @@
 import React from 'react'
 
-import '../../assets/styles/components/Rotated.styl'
+import '../assets/styles/components/Rotated.styl'
 
 const Rotated = ({ className, children }) => {
   className ?

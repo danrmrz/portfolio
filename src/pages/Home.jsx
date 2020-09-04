@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 import Rotated from '../components/Rotated'
 import Navbar from '../components/Navbar'
 
-import profile from '../../assets/static/profile.jpg'
+import profile from '../assets/static/profile.jpg'
 
-import '../../assets/styles/pages/Home.styl'
+import '../assets/styles/pages/Home.styl'
 
 const Home = ({ children }) => {
   return(
