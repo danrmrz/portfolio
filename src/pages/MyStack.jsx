@@ -21,7 +21,7 @@ const MyStack = () => {
   return(
     <div className="mystack text-container">
       <h1 className='mystack__title page-title'>My stack</h1>
-      <p>
+      <p className='mystack__description'>
         Hola, si quieres darte una mejor idea de 
         las tecnologías que domino y con las 
         cuales he desarrollado mis proyectos, 
@@ -29,28 +29,30 @@ const MyStack = () => {
         una pequeña lista.
       </p>
       
-      <MyStackList titleList='No pueden faltar'>
-        <MyStackListItem icon={javascript_icon} title='JavaScript' />
-        <MyStackListItem icon={html_icon} title='HTML' />
-        <MyStackListItem icon={css_icon} title='CSS' />
-      </MyStackList>
-      
-      <MyStackList titleList='Fameworks y preprocesadores'>
-        <MyStackListItem icon={react_icon} title='React JS' />
-        <MyStackListItem icon={pug_icon} title='Pug' />
-        <MyStackListItem icon={stylus_icon} title='Stylus' />
-        <MyStackListItem icon={sass_icon} title='Sass' />
-      </MyStackList>
-      
-      <MyStackList titleList='Aprendiendo o con ligero conocimiento de'>
-        <MyStackListItem icon={nodejs_icon} title='Node JS' />
-        <MyStackListItem icon={c_sharp_icon} title='C#' />
-      </MyStackList>
-      
-      <MyStackList titleList='Proximamente'>
-        <MyStackListItem icon={typescript_icon} title='TypeScript' />
-        <MyStackListItem icon={python_icon} title='Python' />
-      </MyStackList>
+      <div className="mystack__container">
+        <MyStackList titleList='No pueden faltar'>
+          <MyStackListItem icon={javascript_icon} title='JavaScript' />
+          <MyStackListItem icon={html_icon} title='HTML' />
+          <MyStackListItem icon={css_icon} title='CSS' />
+        </MyStackList>
+        
+        <MyStackList titleList='Fameworks y preprocesadores'>
+          <MyStackListItem icon={react_icon} title='React JS' />
+          <MyStackListItem icon={pug_icon} title='Pug' />
+          <MyStackListItem icon={stylus_icon} title='Stylus' />
+          <MyStackListItem icon={sass_icon} title='Sass' />
+        </MyStackList>
+        
+        <MyStackList titleList='Aprendiendo o con ligero conocimiento de'>
+          <MyStackListItem icon={nodejs_icon} title='Node JS' />
+          <MyStackListItem icon={c_sharp_icon} title='C#' />
+        </MyStackList>
+        
+        <MyStackList titleList='Proximamente'>
+          <MyStackListItem icon={typescript_icon} title='TypeScript' />
+          <MyStackListItem icon={python_icon} title='Python' />
+        </MyStackList>
+      </div>
     </div>
   )
 }

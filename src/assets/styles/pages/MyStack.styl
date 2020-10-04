@@ -1,14 +1,28 @@
 @import '../Variables'
 
 .mystack
+  min-height: $height-container
+
+  &__container
+    display: flex
+    width: 100%
+    flex-wrap: wrap
+    justify-content: space-evenly
+
+  &-item
+    display: flex
+    width: 100%
+    flex-direction: column
+    align-items: center
+
   .rotated
     .title
-      min-width: calc(100vw - 110px)
+      min-width: calc(100% - 110px)
       max-width: 280px
       text-align: start
 
   &__list-container
-    width: calc(100vw - 110px)
+    width: calc(100% - 110px)
 
   &__list
     margin: 0

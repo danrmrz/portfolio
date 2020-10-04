@@ -13,8 +13,14 @@ const Home = ({ children }) => {
     <>
       <div className='introduce'>
         <div className='myself'>
-          <img src={ profile } alt=''/>
-          <h1 className='page-title'>Hola, yo soy Dan Ramirez</h1>
+          <img
+            src={ profile }
+            alt='Fotografía personal'
+            className='myself--image'
+          />
+          <h1 className='myself--title page-title'>
+            Hola, yo soy Dan Ramirez
+          </h1>
         </div>
 
         <Rotated>

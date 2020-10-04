@@ -4,7 +4,7 @@ import Rotated from './Rotated'
 
 const MyStackList = ({ titleList ,children }) => {
   return(
-    <>
+    <div className='mystack-item'>
       <Rotated>
           <h2 className='mystack__title title'>{ titleList }</h2>
       </Rotated>
@@ -13,7 +13,7 @@ const MyStackList = ({ titleList ,children }) => {
           { children }
         </ul>
       </div>
-    </>
+    </div>
   )
 }
 
