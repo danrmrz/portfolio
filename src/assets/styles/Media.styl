@@ -1,3 +1,9 @@
+@import './Variables'
+
+@media screen and (min-height: 640px)
+  .introduce .myself
+    height: 250px
+
 @media screen and (min-width: 768px)
   .header .rotated--color
     top: -25px
@@ -11,6 +17,83 @@
   .mystack-item
     max-width: 350px
 
-@media screen and (min-height: 640px)
-  .introduce .myself
-    height: 250px
+@media screen and (min-width: 1024px)
+  @keyframes toLeft {
+    0% {
+      margin-left: 0
+    }
+    50% {
+      margin-left: 0px
+    }
+    100% {
+      margin-left: 175px
+    }
+  }
+
+  #app
+    animation: toLeft 1.3s
+    margin-left: 180px
+    overflow: auto
+  
+  .header__menu-button
+    display: none
+
+  .menu    
+    &-container
+      width: auto
+    
+      .clickToClose
+        display: none
+
+    &__button
+      display: none
+
+      &-container
+        height 35px
+
+  .introduce
+    display: flex
+    justify-content: center
+    align-items: center
+
+    .rotated
+      width: 45%
+      max-width: 450px
+      margin-left: 5%
+
+  .mystack__description
+    max-width 750px
+
+  .projects-container, .experience, .contact
+    min-height: $height-container-home_2
+
+@media screen and (min-width: 1130px)
+  .header .rotated--color
+    top: -32px
+  
+  .footer .rotated--color
+    top: 32px
+
+@media screen and (min-width: 1400px)
+  .header, .footer
+    height: 95px
+
+  .header .rotated--color
+    height: 95px
+    top: -46px
+  
+  .footer .rotated--color
+    height: 95px
+    top: 46px
+  
+  .projects-container, .experience, .contact
+    min-height: $height-container-home_3
+
+  .projects-container
+    margin-bottom: 0
+  
+  .aboutme, .mystack, .notFound
+    height: $height-container_2
+
+  .aboutme, .mystack
+    margin: -20px 0

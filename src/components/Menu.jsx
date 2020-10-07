@@ -20,20 +20,36 @@ const Menu = (props) => {
       null
     )
   }
+
   return ReactDOM.createPortal(
     <div className='menu-container' id='menu-container'>
       <div className='menu' id='menu'>
         <div className='menu__button-container'>
-          <div className='menu__button btn' onClick={props.onClose}>
-            <img src={close_icon} alt='' className='menu__button-image btn-img'/>
+          <div
+            className='menu__button btn'
+            onClick={props.onClose}
+          >
+            <img
+              src={close_icon}
+              alt='Botón para cerrar menú'
+              className='menu__button-image btn-img'
+            />
           </div>
         </div>
 
         <div className='menu__links'>
-          <Link to='/' className='menu__links--titles' onClick={props.onClose}>
+          <Link
+            to='/'
+            className='menu__links--titles'
+            onClick={props.onClose}
+          >
             Inicio
           </Link>
-          <Link to='/aboutme' className='menu__links--titles' onClick={props.onClose}>
+          <Link
+            to='/aboutme'
+            className='menu__links--titles'
+            onClick={props.onClose}
+          >
             Acerca de mi
           </Link>
         </div>
@@ -44,13 +60,25 @@ const Menu = (props) => {
           </span>
           <div className='menu__social-links'>
             <a href={gitHubLink} target='_blank'>
-              <img src={gitHub_icon} alt='icono de gitHub' className='menu__social-links--images' />
+              <img
+                src={gitHub_icon}
+                alt='icono de gitHub'
+                className='menu__social-links--images'
+              />
             </a>
             <a href={linkedInLink}  target='_blank'>
-              <img src={linkedIn_icon} alt='icono de linkedIn' className='menu__social-links--images' />
+              <img
+                src={linkedIn_icon}
+                alt='icono de linkedIn'
+                className='menu__social-links--images'
+              />
             </a>
             <a href={twitterLink}  target='_blank'>
-              <img src={twitter_icon} alt='icono de twitter' className='menu__social-links--images' />
+              <img
+                src={twitter_icon}
+                alt='icono de twitter'
+                className='menu__social-links--images'
+              />
             </a>
           </div>
         </div>
