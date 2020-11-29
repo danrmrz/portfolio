@@ -3,6 +3,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,linux,images,macos,react,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,linux,images,macos,react,windows
 
+### Build ###
+dist/
+
 ### Images ###
 src/assets/static/
 
@@ -69,7 +72,7 @@ thumb
 sketch
 
 ### VisualStudioCode ###
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json

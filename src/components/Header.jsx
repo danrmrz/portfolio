@@ -2,9 +2,10 @@ import React from 'react'
 
 import Rotated from './Rotated'
 import Menu from './Menu'
-import menu_icon from '../assets/static/menu.png'
 
 import '../assets/styles/components/Header.styl'
+
+const menu_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/icons%2Fmenu.png?alt=media&token=bfe22667-0e20-4751-9182-d749f4e6303c'
 
 class Header extends React.Component {
   constructor() {

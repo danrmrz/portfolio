@@ -2,13 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Link } from 'react-router-dom'
 
-import close_icon from '../assets/static/close-w.png'
-import gitHub_icon from '../assets/static/github-w.png'
-import linkedIn_icon from '../assets/static/linkedin-w.png'
-import twitter_icon from '../assets/static/twitter-w.png'
-import hackerCat from '../assets/static/hackerCat.png'
-
 import '../assets/styles/components/Menu.styl'
+
+const close_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/icons%2Fclose-w.png?alt=media&token=6caf9848-943f-41f5-9f80-59f0aa4436a3'
+const gitHub_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/icons%2Fgithub-w.png?alt=media&token=2becf449-8765-428f-9487-82be45a099c7'
+const linkedIn_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/icons%2Flinkedin-w.png?alt=media&token=4f5cd70b-6e8e-456d-989d-0ce170d62ab2'
+const twitter_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/icons%2Ftwitter-w.png?alt=media&token=15732cdd-669d-4a33-b183-1761fbc9c613'
+const hacker_cat = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/hackerCat.png?alt=media&token=8f313492-6ac7-4f1d-bba4-3a7983401175'
 
 const gitHubLink = 'https://github.com/danrmrz'
 const linkedInLink = 'https://linkedin.com/in/danrmrz'
@@ -86,7 +86,7 @@ const Menu = (props) => {
         <div className='menu__made'>
           <span>
             <img
-              src={hackerCat}
+              src={hacker_cat}
               alt='Gato hacker'
               className='menu__made--image'
             />

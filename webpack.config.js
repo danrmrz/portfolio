@@ -27,7 +27,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(css|styl)/,
+        test: /\.(css|styl)$/,
         use: [
 					{
 						loader: MiniCssExtractPlugin.loader
@@ -37,7 +37,7 @@ module.exports = {
 				]
       },
       {
-        test: /\.(png|jpg|svg)/,
+        test: /\.(png|jpg|svg)$/,
         use: [
           {
             loader: 'file-loader',
@@ -50,7 +50,7 @@ module.exports = {
     ]
   },
   devServer: {
-    historyApiFallback: true,
+    historyApiFallback: true
   },
   plugins: [
     new HtmlWebPackPlugin({

@@ -1,9 +1,9 @@
 import React from 'react'
 
-import email_icon from '../assets/static/mail-w.png'
-import twitter_icon from '../assets/static/twitter-w.png'
-
 import '../assets/styles/pages/Contact.styl'
+
+const email_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/icons%2Fmail-w.png?alt=media&token=35c27699-cd0a-4349-8222-20131e9cfc6c'
+const twitter_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/icons%2Ftwitter-w.png?alt=media&token=15732cdd-669d-4a33-b183-1761fbc9c613'
 
 const twitterLink = 'https://twitter.com/soydanrmrz'
 const email = 'danrmrz@outlook.com'

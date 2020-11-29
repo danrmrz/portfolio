@@ -3,19 +3,19 @@ import React from 'react'
 import MyStackList from '../components/MyStackList'
 import MyStackListItem from '../components/MyStackListItem'
 
-import javascript_icon from '../assets/static/tecnologies/javascript-b.png'
-import html_icon from '../assets/static/tecnologies/html5-b.png'
-import css_icon from '../assets/static/tecnologies/css3-b.png'
-import react_icon from '../assets/static/tecnologies/react-b.png'
-import pug_icon from '../assets/static/tecnologies/pug-b.svg'
-import stylus_icon from '../assets/static/tecnologies/stylus-b.svg'
-import sass_icon from '../assets/static/tecnologies/sass-b.png'
-import nodejs_icon from '../assets/static/tecnologies/nodejs-b.png'
-import c_sharp_icon from '../assets/static/tecnologies/c_sharp-b.png'
-import typescript_icon from '../assets/static/tecnologies/typescript-b.png'
-import python_icon from '../assets/static/tecnologies/python-b.png'
-
 import '../assets/styles/pages/MyStack.styl'
+
+const javascript_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Fjavascript-b.png?alt=media&token=5f1e9cef-0a8c-4051-a620-52945d1340c6'
+const html_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Fhtml5-b.png?alt=media&token=4cc46003-93f5-492c-9b27-95431680ea9c'
+const css_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Fcss3-b.png?alt=media&token=8d255b35-a46d-47a9-8e70-67d6196cb553'
+const react_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Freact-b.png?alt=media&token=fa33197e-01fc-4b99-a18b-48170a20630e'
+const pug_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Fpug-b.png?alt=media&token=25e6cd14-7e63-4649-8656-6afcb62618b1'
+const stylus_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Fstylus-b.svg?alt=media&token=e9f95c20-f140-4ffb-ad69-6606b6eed207'
+const sass_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Fsass-b.png?alt=media&token=c3484532-4254-4e18-9598-3e3cc0546db8'
+const nodejs_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Fnodejs-b.png?alt=media&token=392b085b-901a-4785-ae87-be6ed565334e'
+const c_sharp_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Fc_sharp-b.png?alt=media&token=42851752-d8ad-4167-ad47-bd7c1df93565'
+const typescript_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Ftypescript-b.png?alt=media&token=5e9fb353-6957-4865-a30e-9ecff7380226'
+const python_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/technologies%2Fpython-b.png?alt=media&token=d5dd0bad-d389-41f5-9209-f627907bd58b'
 
 const MyStack = () => {
   return(

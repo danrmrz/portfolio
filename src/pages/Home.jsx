@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 import Rotated from '../components/Rotated'
 import Navbar from '../components/Navbar'
 
-import profile from '../assets/static/profile.jpg'
-
 import '../assets/styles/pages/Home.styl'
+
+const profile = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/profile.jpg?alt=media&token=80611309-1500-4a99-9e97-34e06251f4e6'
 
 const Home = ({ children }) => {
   return(

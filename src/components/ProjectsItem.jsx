@@ -1,9 +1,9 @@
 import React from 'react'
 
-import webIcon from '../assets/static/globe-w.png'
-import gitHubIcon from '../assets/static/github-w.png'
-
 import '../assets/styles/components/ProjectsItem.styl'
+
+const web_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/icons%2Fglobe-w.png?alt=media&token=ea3344fa-15db-498a-bf3f-200ec60867e6'
+const gitHub_icon = 'https://firebasestorage.googleapis.com/v0/b/portfolio-a27aa.appspot.com/o/icons%2Fgithub-w.png?alt=media&token=2becf449-8765-428f-9487-82be45a099c7'
 
 const ProjectsItem = (props) => {
   
@@ -34,7 +34,7 @@ const ProjectsItem = (props) => {
           target='_blank'
           className='projects-item__links--button link-button'
         >
-          <img src={webIcon} alt='Icono de web' />
+          <img src={web_icon} alt='Icono de web' />
           Link al proyecto
         </a>
         <a
@@ -42,7 +42,7 @@ const ProjectsItem = (props) => {
           target='_blank'
           className='projects-item__links--button link-button'
         >
-          <img src={gitHubIcon} alt='Icono de GitHub' />
+          <img src={gitHub_icon} alt='Icono de GitHub' />
           Link al repositorio
         </a>
       </div>
