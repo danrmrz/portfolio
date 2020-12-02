@@ -14,8 +14,8 @@ const gitHubLink = 'https://github.com/danrmrz'
 const linkedInLink = 'https://linkedin.com/in/danrmrz'
 const twitterLink = 'https://twitter.com/soydanrmrz'
 
-const Menu = (props) => {
-  if (!props.isActive) {
+const Menu = ({ isActive, onClose }) => {
+  if (!isActive) {
     return(
       null
     )
@@ -27,7 +27,7 @@ const Menu = (props) => {
         <div className='menu__button-container'>
           <div
             className='menu__button btn'
-            onClick={props.onClose}
+            onClick={onClose}
           >
             <img
               src={close_icon}
@@ -41,14 +41,14 @@ const Menu = (props) => {
           <Link
             to='/'
             className='menu__links--titles'
-            onClick={props.onClose}
+            onClick={onClose}
           >
             Inicio
           </Link>
           <Link
             to='/aboutme'
             className='menu__links--titles'
-            onClick={props.onClose}
+            onClick={onClose}
           >
             Acerca de mi
           </Link>
@@ -95,7 +95,7 @@ const Menu = (props) => {
         </div>
       </div>
       
-      <div className='clickToClose' onClick={props.onClose}></div>
+      <div className='clickToClose' onClick={onClose}></div>
     </div>,
     document.getElementById('modal')
   )
